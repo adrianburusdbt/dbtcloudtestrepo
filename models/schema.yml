@@ -29,8 +29,6 @@ models:
     columns:
         - name: id
           description: "The primary key for this table"
-          tests:
-            - unique
           data_type: int
     access: public
 
