@@ -1,0 +1,13 @@
+groups:
+  - name: platform
+    owner:
+      email: zob.rombie@example.com
+      name: Zob Rombie
+  - name: finance
+    owner:
+      email: mohn.jadden@example.com
+      name: Mohn Jadden
+  - name: marketing
+    owner:
+      email: jen.baffleck@example.com
+      name: Jen Baffleck
