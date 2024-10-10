@@ -5,6 +5,9 @@ models:
   - name: my_first_dbt_model
     description: "A starter dbt model"
     group: platform
+    config:
+        contract:
+          enforced: true
     columns:
         - name: id
           description: "The primary key for this table"
