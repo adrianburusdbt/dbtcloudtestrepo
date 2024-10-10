@@ -1,0 +1,1 @@
+select * from {{ ref('property_management', 'units') }}
