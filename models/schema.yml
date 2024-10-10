@@ -2,7 +2,25 @@ models:
   - name: my_child_model
     access: public
 
-  - name: my_first_dbt_model
+  - name: my_first_dbt_model 
+    description: "A starter dbt model"
+    latest_version: 2
+    versions:
+      - v: 1
+      - v: 2
+    group: platform
+    config:
+        contract:
+          enforced: true
+    columns:
+        - name: id
+          description: "The primary key for this table"
+          tests:
+            - unique
+          data_type: int
+    access: public
+
+  - name: my_first_dbt_model_v2
     description: "A starter dbt model"
     group: platform
     config:
