@@ -1,1 +1,2 @@
-select * from {{ ref('property_management', 'units') }}
+select *
+from {{ ref('my_second_dbt_model') }}
