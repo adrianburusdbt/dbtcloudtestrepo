@@ -7,6 +7,7 @@ groups:
   - name: slack
     owner:
       name: "slack"
+      email: adrian.burus@dbtlabs.com
     config: 
       meta:
-        slack: "test-test"
+        slack: "#test-test"
