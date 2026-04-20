@@ -1,15 +1,18 @@
 models:
   - name: my_child_model
-    access: public
-
+    config:
+        group: slack
+    
   - name: my_first_dbt_model 
     description: "A starter dbt model"
     latest_version: 2
     versions:
       - v: 1
       - v: 2
-    group: platform
+    
+    
     config:
+        group: slack
         contract:
           enforced: true
     columns:
@@ -18,19 +21,17 @@ models:
           tests:
             - unique
           data_type: int
-    access: public
 
   - name: my_first_dbt_model_v2
     description: "A starter dbt model"
-    group: platform
     config:
+        group: slack
         contract:
           enforced: true
     columns:
         - name: id
           description: "The primary key for this table"
           data_type: int
-    access: public
 
   - name: my_second_dbt_model
     description: "A starter dbt model"
@@ -39,3 +40,5 @@ models:
           description: "The primary key for this table"
           tests:
             - unique
+    config: 
+      group: slack
