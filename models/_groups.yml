@@ -5,4 +5,4 @@ groups:
       email: adrian.burus@dbtlabs.com
     config: 
       meta:
-        slack: "#test-test"
+        slack: "#social"
