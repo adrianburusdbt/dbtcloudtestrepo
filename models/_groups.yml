@@ -1,9 +1,4 @@
 groups:
-  - name: platform
-    owner:
-      email: zob.rombie@example.com
-      name: Zob Rombie
-
   - name: slack
     owner:
       name: "slack"
